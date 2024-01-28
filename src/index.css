@@ -1,13 +1,36 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://bogatyr.club/uploads/posts/2023-03/1678773288_bogatyr-club-p-obichnii-fon-foni-vkontakte-1.jpg");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.button {
+  margin-left: 46%;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: rgb(46, 38, 108);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-top: 15px;
+}
+
+.button:hover {
+  background-color: rgb(46, 38, 108);
+}
+
+.button:active {
+  background-color: rgb(46, 38, 108);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+p {
+  margin-left: 50%;
+  border: 1px solid rgb(46, 38, 108);
+  width: 50px;
+  height: 50px;
+  text-align: center;
 }
